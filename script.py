@@ -25,12 +25,12 @@ colors = ["green", "blue"]
 background(colors)
 
 # 이름과 설명, 버튼에 들어갈 글 설정
-write("name", "정윤아")
-write("description", "효성중3학년")
-write("button", "인스타그램")
+write("name", "이름")
+write("description", "설명")
+write("button", "버튼")
 
 # 상세설명에 들어갈 제목과 글 설정
-informations = (
+informations = {
   "제목1": "내용1",
   "제목2": "내용2",
   "제목3": "내용3",
